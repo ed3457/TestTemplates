@@ -13,6 +13,13 @@ T GetMax(T x, T y)
 }
 
 
+template <typename T>
+T GetMin(T x, T y)
+{
+
+    return (x <  y) ? x : y;
+
+}
 
 int main()
 {
